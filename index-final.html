@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Intuitiva UX: consultoría en estrategia de producto, diseño UX, contenido e inteligencia artificial para organizaciones que escalan." />
+  <meta name="keywords" content="solparnofiello, marisolparnofiello, uxwriting, uxcontent, experienciadeusuario, uxcontentvibe, Sol Parnofiello, Marisol Parnofiello, UX Writing, UX Content, experiencia de usuario" />
+  <meta property="og:title" content="Intuitiva UX | Sol Parnofiello" />
+  <meta property="og:description" content="Consultoría en UX, UX Writing y UX Content. Sol Parnofiello (Marisol Parnofiello): estrategia de producto y experiencia de usuario." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://intuitivaux.com/assets/img/metacard-intuitiva-ux.jpg" />
+  <meta property="og:image:width" content="1536" />
+  <meta property="og:image:height" content="1024" />
+  <meta property="og:image:alt" content="Intuitiva UX - UX estratégico y data-driven para productos digitales" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Intuitiva UX | Sol Parnofiello" />
+  <meta name="twitter:description" content="Consultoría en UX, UX Writing y UX Content. Estrategia de producto y experiencia de usuario." />
+  <meta name="twitter:image" content="https://intuitivaux.com/assets/img/metacard-intuitiva-ux.jpg" />
+  <meta name="theme-color" content="#22b8cf" />
+  <title>Intuitiva UX</title>
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sol Parnofiello",
+    "alternateName": "Marisol Parnofiello",
+    "url": "https://intuitivaux.com",
+    "sameAs": [
+      "https://www.linkedin.com/in/solparnofiello/",
+      "https://www.instagram.com/uxwritinges/"
+    ],
+    "knowsAbout": [
+      "uxwriting",
+      "uxcontent",
+      "experienciadeusuario",
+      "uxcontentvibe",
+      "Product Strategy",
+      "UX"
+    ]
+  }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&amp;display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #eef1f4;
+      --surface: #ffffff;
+      --ink: #121317;
+      --muted: #4f5661;
+      --hair: #d9dfe6;
+      --hair2: #c2ccd8;
+      --accent: #22b8cf;
+      --accent-2: #1498b0;
+      --max: 1200px;
+      --r: 20px;
+      --ease: cubic-bezier(.2,.9,.2,1);
+      --shadow: 0 18px 70px rgba(15, 22, 37, .12);
+      --shadow2: 0 10px 28px rgba(15, 22, 37, .08);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    section[id] { scroll-margin-top: 96px; }
+    .skip-link {
+      position: absolute;
+      left: -9999px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+    .skip-link:focus {
+      left: 16px;
+      top: 12px;
+      z-index: 1000;
+      width: auto;
+      height: auto;
+      padding: 10px 14px;
+      border-radius: 10px;
+      background: #ffffff;
+      color: #0d1117;
+      border: 1px solid var(--hair2);
+      box-shadow: var(--shadow2);
+      text-decoration: none;
+      font-weight: 800;
+    }
+    body {
+      font-family: "Lato", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background: #ffffff;
+      line-height: 1.65;
+      letter-spacing: -0.01em;
+      text-rendering: optimizeLegibility;
+    }
+    h1, h2, h3, h4, .logo-text, .footer-logo { font-family: "Lato", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    a, button { font-family: inherit; }
+
+    .container { max-width: var(--max); margin: 0 auto; padding: 0 26px; }
+    .row { display: flex; flex-wrap: wrap; gap: 20px; }
+    .col-half { flex: 1 1 calc(50% - 10px); min-width: 280px; }
+    .col-quarter { flex: 1 1 calc(25% - 15px); min-width: 220px; }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255,255,255,.92);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--hair);
+    }
+    .header-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 16px 26px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: nowrap;
+    }
+    .logo-text {
+      flex: 0 0 auto;
+      text-decoration: none;
+      line-height: 1;
+      display: inline-flex;
+      align-items: center;
+    }
+    .logo-image {
+      display: block;
+      height: 116px;
+      width: auto;
+    }
+    nav { display: flex; align-items: center; gap: 12px; flex-wrap: nowrap; justify-content: flex-end; margin-left: auto; }
+    nav a {
+      color: #4a4f56;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: .98rem;
+      border-radius: 999px;
+      padding: 8px 10px;
+      transition: background 160ms var(--ease), color 160ms var(--ease);
+    }
+    nav a:hover { background: rgba(34,184,207,.12); color: #182126; }
+    nav a:focus-visible, .btn-nav:focus-visible, .btn-hero:focus-visible, .btn-seminario:focus-visible, .btn-mail:focus-visible, .btn-compra:focus-visible, .btn-lang:focus-visible, .social-links a:focus-visible, .btn-linkedin-bio:focus-visible, .btn-carousel-toggle:focus-visible {
+      outline: 3px solid rgba(34,184,207,.45);
+      outline-offset: 2px;
+    }
+
+    .btn-nav, .btn-hero, .btn-seminario, .btn-mail, .btn-compra, .btn-lang {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border-radius: 16px;
+      font-weight: 850;
+      letter-spacing: -0.01em;
+      text-decoration: none;
+      transition: background 160ms var(--ease), border-color 160ms var(--ease), transform 160ms var(--ease), color 160ms var(--ease);
+    }
+
+    .btn-nav, .btn-hero, .btn-seminario, .btn-mail {
+      background: var(--accent);
+      color: #fff !important;
+      border: 1px solid transparent;
+      box-shadow: 0 10px 22px rgba(34,184,207,.28);
+      padding: 13px 20px;
+    }
+    .btn-nav:hover, .btn-hero:hover, .btn-seminario:hover, .btn-mail:hover { background: var(--accent-2); transform: translateY(-1px); }
+    .btn-linkedin-bio {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 130px;
+      height: 56px;
+      padding: 0 24px;
+      border-radius: 999px;
+      background: #e7eaef;
+      border: 2px solid #b8c1cc;
+      color: #4e5763;
+      font-weight: 900;
+      font-size: 1.05rem;
+      text-decoration: none;
+      transition: transform .2s ease, background .2s ease, border-color .2s ease, color .2s ease;
+    }
+    .btn-linkedin-bio:hover {
+      transform: translateY(-1px);
+      background: #dfe4ea;
+      border-color: #aeb8c4;
+      color: #3f4752;
+    }
+    .btn-lang {
+      border: 1px solid var(--hair2);
+      background: #fff;
+      color: #1b2228;
+      font-size: .9rem;
+      padding: 10px 14px;
+      cursor: pointer;
+    }
+    .btn-lang:hover { background: #f9fcfd; border-color: #a9ddea; transform: translateY(-1px); }
+
+    section { padding: 58px 0; }
+    .hero {
+      padding: 96px 0 66px;
+      background: #e9edf2;
+      border-top: 1px solid var(--hair);
+      border-bottom: 1px solid var(--hair);
+    }
+    .hero .row { display: block; }
+    .hero .col-half { max-width: 100%; }
+    .hero .hero-intro { width: 100%; max-width: 1120px; }
+    .hero-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 16px;
+      border-radius: 999px;
+      border: 1px solid #b8dbe5;
+      background: #dff1f7;
+      color: #216f80;
+      font-size: 1rem;
+      font-weight: 900;
+      margin-bottom: 20px;
+    }
+    .hero h1 {
+      margin: 0 0 18px;
+      font-size: clamp(48px, 6.8vw, 92px);
+      line-height: .92;
+      letter-spacing: -0.055em;
+      color: var(--ink);
+      max-width: 16ch;
+      text-wrap: balance;
+    }
+    #hero-typing.is-typing::after {
+      content: "";
+      display: inline-block;
+      width: .08em;
+      height: .9em;
+      margin-left: .08em;
+      vertical-align: -.08em;
+      background: currentColor;
+      animation: hero-caret-blink .9s steps(1, end) infinite;
+    }
+    @keyframes hero-caret-blink { 50% { opacity: 0; } }
+    .hero .hero-subtitle {
+      margin: 0 0 24px;
+      color: #59616d;
+      font-size: clamp(22px, 2.5vw, 40px);
+      line-height: 1.28;
+      font-weight: 400;
+      max-width: 26ch;
+      text-wrap: pretty;
+    }
+    .hero-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .hero .btn-hero {
+      min-width: 168px;
+      padding: 14px 24px;
+      font-size: 1rem;
+      box-shadow: 0 14px 28px rgba(34,184,207,.26);
+    }
+    .btn-hero-secondary {
+      background: transparent;
+      color: #1d252d !important;
+      border: 1px solid var(--hair2);
+      box-shadow: none;
+    }
+    .btn-hero-secondary:hover {
+      background: #f5f8fb;
+      border-color: #aeb9c5;
+      transform: none;
+    }
+    .hero .hero-profile {
+      display: block;
+      margin-top: 28px;
+      padding-top: 18px;
+      border-top: 1px solid #c8d0da;
+      max-width: 980px;
+    }
+    .hero .hero-profile h2 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 2.4vw, 36px);
+      line-height: 1.08;
+      letter-spacing: -0.04em;
+      color: var(--ink);
+    }
+    .hero .hero-profile p {
+      margin: 0 0 8px !important;
+      max-width: 70ch;
+      color: #3f4752;
+      font-size: 1.02rem;
+      line-height: 1.6;
+    }
+    .hero-bio-layout {
+      display: grid;
+      grid-template-columns: 190px minmax(0, 1fr);
+      align-items: start;
+      gap: 22px;
+    }
+    .hero-bio-photo img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      border: 1px solid #cfd7e0;
+      background: #d7dde4;
+      box-shadow: 0 8px 20px rgba(15, 22, 37, .1);
+    }
+    .hero-bio-copy { min-width: 0; }
+    .hero .btn-linkedin-bio {
+      min-width: 0;
+      height: 44px;
+      padding: 0 18px;
+      background: transparent;
+      border: 1px solid var(--hair2);
+      color: #3f4752;
+      box-shadow: none;
+      font-size: .98rem;
+    }
+    .hero .btn-linkedin-bio:hover {
+      background: #f5f8fb;
+      border-color: #aeb9c5;
+      transform: none;
+    }
+
+    .servicios, .mis-libros, .seminario, .clientes { background: transparent; }
+    .seccion-titulo {
+      text-align: left;
+      margin: 0 0 24px;
+      font-size: clamp(24px, 3.3vw, 40px);
+      line-height: 1.06;
+      letter-spacing: -0.05em;
+      color: var(--ink);
+    }
+    .clientes .seccion-titulo { text-align: center; }
+
+    .servicio-card, .libro-card, .resena-card {
+      border: 1px solid var(--hair);
+      border-radius: calc(var(--r) + 4px);
+      background: var(--surface);
+      box-shadow: var(--shadow2);
+      transition: transform 180ms var(--ease), border-color 180ms var(--ease), box-shadow 180ms var(--ease);
+    }
+    .servicio-card:hover, .libro-card:hover, .resena-card:hover { transform: translateY(-2px); border-color: #99dce8; box-shadow: 0 18px 36px rgba(20,152,176,.12); }
+    .servicio-card { padding: 22px 20px; }
+    .servicio-icono { font-size: 1.7rem; margin-bottom: 10px; }
+    .servicio-card h3 { font-size: 1.05rem; font-weight: 800; color: var(--ink); margin-bottom: 8px; letter-spacing: -0.02em; }
+    .servicio-card p { font-size: .95rem; color: var(--muted); line-height: 1.65; }
+
+    .libro-card { padding: 26px 22px; text-align: center; display: flex; flex-direction: column; align-items: center; }
+    .libro-card h3 { font-size: 1.02rem; font-weight: 800; color: var(--ink); margin-bottom: 10px; line-height: 1.45; }
+    .libro-card p { font-size: .9rem; color: var(--muted); line-height: 1.65; margin-bottom: 14px; }
+    .comprar-label { font-size: .72rem; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; color: #7d8591; margin-bottom: 10px; }
+    .btns-compra { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+    .btn-compra {
+      border: 1px solid var(--hair2);
+      background: #fff;
+      color: #1b2228;
+      padding: 9px 14px;
+      font-size: .85rem;
+      font-weight: 800;
+    }
+    .btn-compra:hover { background: #f9fcfd; border-color: #a9ddea; transform: translateY(-1px); }
+    .btn-ar, .btn-amazon, .btn-kindle { background: #fff; color: #1b2228; }
+
+    .seminario-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid #ccecf2;
+      background: #e8f8fb;
+      color: #217686;
+      font-weight: 900;
+      font-size: 12px;
+      letter-spacing: .02em;
+      margin-bottom: 12px;
+    }
+    .seminario-titulo { font-size: clamp(28px, 4.8vw, 56px); font-weight: 950; line-height: .98; letter-spacing: -0.05em; color: var(--ink); margin-bottom: 14px; }
+    .seminario-desc { font-size: 18px; color: var(--muted); line-height: 1.7; margin-bottom: 18px; max-width: 70ch; }
+    .seminario-items { list-style: none; margin-bottom: 20px; display: grid; gap: 8px; }
+    .seminario-items li { font-size: .98rem; color: #1d232b; line-height: 1.5; }
+    .seminario .seminario-copy {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+    .seminario .col-half > img {
+      max-width: 520px;
+      width: 100%;
+      margin: 0 auto;
+      display: block;
+    }
+    .seminario-imagen {
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+    }
+    .resenas-bloque { margin-top: 64px; }
+    .resenas-titulo {
+      text-align: center;
+      font-size: 1.4rem;
+      font-weight: 900;
+      color: #111;
+      margin-bottom: 10px;
+    }
+    .carousel-controls {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 16px;
+    }
+    .btn-carousel-toggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--hair2);
+      background: #ffffff;
+      color: #1b2228;
+      border-radius: 999px;
+      padding: 8px 14px;
+      font-size: .88rem;
+      font-weight: 800;
+      cursor: pointer;
+    }
+    .btn-carousel-toggle:hover { background: #f9fcfd; border-color: #a9ddea; }
+
+    .resenas-wrapper, .carrusel-wrapper { overflow: hidden; width: 100%; margin-top: 16px; }
+    .resenas-track, .carrusel-track { display: flex; width: max-content; animation: scroll-resenas 35s linear infinite; }
+    .resenas-track { gap: 20px; }
+    .carrusel-track { gap: 56px; animation-name: scroll-logos; animation-duration: 22s; align-items: center; }
+    .resenas-track:hover, .carrusel-track:hover { animation-play-state: paused; }
+    @keyframes scroll-resenas { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+    @keyframes scroll-logos { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+    .resena-card { flex-shrink: 0; width: 300px; padding: 22px 20px; }
+    .resena-card strong { font-size: .95rem; color: var(--ink); display: block; margin-bottom: 4px; }
+    .resena-card p { font-size: .9rem; color: var(--muted); line-height: 1.65; margin-top: 10px; font-style: italic; }
+    .resena-avatar { width: 36px; height: 36px; border-radius: 50%; background: var(--accent); color: #fff; font-weight: 700; font-size: .9rem; display: inline-flex; align-items: center; justify-content: center; margin-bottom: 8px; }
+    .estrellas { color: #f5a623; font-size: .85rem; letter-spacing: 2px; }
+    .logo-item {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border-radius: 12px;
+      transition: opacity .2s, transform .2s;
+    }
+    .logo-item:hover { transform: translateY(-1px); }
+    .logo-item img {
+      height: 52px;
+      width: auto;
+      object-fit: cover;
+      clip-path: inset(14% 12% 14% 12% round 10px);
+      transform: scale(1.26);
+      background: transparent;
+      mix-blend-mode: multiply;
+    }
+
+    .contacto {
+      padding: 78px 0;
+      text-align: center;
+      background:
+        radial-gradient(1200px 320px at 50% -30%, rgba(34,184,207,.2), transparent 65%),
+        transparent;
+      border-top: 1px solid var(--hair);
+    }
+    .contacto-card {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 34px 28px;
+      border-radius: 28px;
+      border: 1px solid var(--hair2);
+      background: linear-gradient(160deg, #ffffff 0%, #f6fbfe 100%);
+      box-shadow:
+        0 24px 50px rgba(16, 24, 40, .08),
+        0 2px 0 rgba(255, 255, 255, .5) inset;
+    }
+    .contacto h2 { font-size: clamp(24px, 3.3vw, 40px); font-weight: 900; color: var(--ink); margin-bottom: 10px; letter-spacing: -0.05em; }
+    .contacto p { color: var(--muted); font-size: 1.06rem; margin-bottom: 24px; }
+    .btn-mail {
+      display: inline-block;
+      width: min(100%, 420px);
+      max-width: 100%;
+      white-space: normal;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+      text-align: center;
+      line-height: 1.25;
+      font-size: 1rem;
+      padding: 14px 18px;
+      box-shadow: 0 16px 28px rgba(34,184,207,.3);
+    }
+    .btn-mail:hover { box-shadow: 0 18px 30px rgba(34,184,207,.38); }
+
+    footer { border-top: 1px solid var(--hair); color: var(--ink); padding: 40px 0 26px; }
+    .footer-logo { margin-bottom: 8px; }
+    .footer-logo-image {
+      display: block;
+      height: 54px;
+      width: auto;
+    }
+    footer p { font-size: .9rem; color: #4f5661; margin-bottom: 6px; }
+    .social-links { margin-top: 14px; display: flex; gap: 14px; }
+    .social-links a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--hair2);
+      color: #4a4f56;
+      text-decoration: none;
+      font-size: .88rem;
+      font-weight: 700;
+      transition: background 160ms var(--ease), color 160ms var(--ease);
+    }
+    .social-links a:hover { background: rgba(34,184,207,.12); color: #182126; }
+    .footer-email { color: #4f5661; font-size: .85rem; margin-top: 8px; }
+    .footer-contact { text-align: right; }
+    .footer-bottom { border-top: 1px solid var(--hair); margin-top: 26px; padding-top: 16px; text-align: center; }
+    .footer-bottom p { font-size: .82rem; color: #5f6773; margin-bottom: 4px; }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+      .resenas-track, .carrusel-track { animation: none !important; }
+    }
+
+    @media (max-width: 899px) {
+      .header-inner { padding: 14px 20px; }
+      .header-inner { flex-wrap: wrap; }
+      .logo-image { height: 92px; }
+      nav { width: 100%; overflow-x: auto; white-space: nowrap; order: 3; padding-bottom: 2px; }
+      .container { padding: 0 20px; }
+      .hero { padding: 62px 0 36px; }
+      .hero h1 { font-size: clamp(38px, 11vw, 60px); max-width: 14ch; }
+      .hero .hero-subtitle { font-size: clamp(17px, 4.6vw, 24px); max-width: 30ch; margin-bottom: 18px; }
+      .hero .btn-hero { min-width: 0; padding: 12px 18px; font-size: .95rem; }
+      .hero-actions { gap: 10px; }
+      .hero-kicker { margin-bottom: 16px; font-size: .9rem; padding: 8px 14px; }
+      .hero .hero-profile { margin-top: 20px; padding-top: 14px; }
+      .hero .hero-profile p { font-size: .95rem; }
+      .hero .btn-linkedin-bio { height: 40px; font-size: .92rem; }
+      .hero-bio-layout {
+        grid-template-columns: 1fr;
+        gap: 14px;
+      }
+      .hero-bio-photo img {
+        width: min(176px, 54vw);
+      }
+      .seccion-titulo { margin-bottom: 18px; }
+      .footer-contact { text-align: left; }
+      .footer-logo-image { height: 44px; }
+      .contacto { padding: 56px 0; }
+      .contacto-card {
+        padding: 24px 16px;
+        border-radius: 22px;
+      }
+      .contacto p { margin-bottom: 18px; }
+      .btn-mail {
+        width: 100%;
+        padding: 12px 14px;
+        font-size: .95rem;
+      }
+    }
+  </style>
+</head>
+<body id="inicio">
+
+<a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+<header>
+  <div class="header-inner">
+    <a href="#inicio" class="logo-text">
+      <img src="./assets/img/intuitivaux.png" alt="intuitiva ux" class="logo-image" />
+    </a>
+    <nav aria-label="Navegación principal">
+      <a href="#servicios" data-i18n="nav-consultoria">Consultoría</a>
+      <a href="#libros" data-i18n="nav-libros">Mis libros</a>
+      <a href="#seminario" data-i18n="nav-seminario">Seminario</a>
+      <a href="#escribime" class="btn-nav" data-i18n="nav-escribime">Conversemos</a>
+      <button onclick="toggleLang()" id="lang-btn" class="btn-lang" type="button" aria-label="Cambiar idioma">EN</button>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido-principal">
+<section class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-half hero-intro">
+        <p class="hero-kicker" data-i18n="hero-kicker">Estrategia de producto en la era de la IA</p>
+        <h1 id="hero-typing" data-i18n="hero-h1">Estrategia de producto y UX para organizaciones que escalan</h1>
+        <p class="hero-subtitle" data-i18n="hero-h2">Acompaño a líderes y equipos a diseñar productos, sistemas de contenido e integración de inteligencia artificial con impacto estratégico y cultural.</p>
+        <div class="hero-actions">
+          <a href="#escribime" class="btn-hero" data-i18n="hero-cta">Conversemos</a>
+          <a href="#seminario" class="btn-hero btn-hero-secondary" data-i18n="hero-cta-secondary">Ver seminario</a>
+          <a href="#servicios" class="btn-hero btn-hero-secondary" data-i18n="hero-cta-tertiary">Advisory</a>
+        </div>
+      </div>
+      <div class="col-half">
+        <div class="hero-profile">
+          <div class="hero-bio-layout">
+            <div class="hero-bio-photo">
+              <img src="./assets/img/foto-sol-parnofiello-pionera.png" alt="Sol Parnofiello" loading="lazy" decoding="async" />
+            </div>
+            <div class="hero-bio-copy">
+              <h2 data-i18n="sol-nombre">Sol Parnofiello</h2>
+              <p data-i18n="sol-bio-1" style="margin-bottom:12px;">Senior Product Design Manager con más de 20 años liderando iniciativas en tecnología, fintech y e-commerce en América Latina. Licenciada en ciencias de la comunicación por la Universidad de Buenos Aires.</p>
+              <p data-i18n="sol-bio-2" style="margin-bottom:12px;">Pionera en UX Writing en español y autora de dos libros sobre experiencia y liderazgo en producto.</p>
+              <p data-i18n="sol-bio-3" style="margin-bottom:12px;">Trabajo junto a equipos de liderazgo para alinear visión, lenguaje, tecnología y cultura organizacional en contextos de alta complejidad.</p>
+              <p data-i18n="sol-bio-4" style="margin-bottom:20px;">Mi enfoque conecta estrategia con ejecución sostenible.</p>
+              <p><a href="https://www.linkedin.com/in/solparnofiello/" target="_blank" rel="noopener noreferrer" class="btn-linkedin-bio" data-i18n="sol-linkedin">Mi LinkedIn</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="servicios" id="servicios">
+  <div class="container">
+    <h2 class="seccion-titulo" data-i18n="servicios-titulo">Advisory estratégico</h2>
+    <div class="row">
+      <div class="col-quarter"><div class="servicio-card">
+        <div class="servicio-icono">🎨</div>
+        <h3 data-i18n="serv1-titulo">Diseño de producto estratégico</h3>
+        <p data-i18n="serv1-desc">Diseño y evolución de productos digitales donde negocio, experiencia y tecnología funcionan como sistema. Defino visión, narrativa y decisiones de producto con foco en impacto real. Integro contenido, research e inteligencia artificial desde la estrategia, no como etapas aisladas.</p>
+      </div></div>
+      <div class="col-quarter"><div class="servicio-card">
+        <div class="servicio-icono">✍️</div>
+        <h3 data-i18n="serv2-titulo">Estrategia de contenido</h3>
+        <p data-i18n="serv2-desc">El contenido no es microcopy. Es infraestructura. Desarrollo sistemas de lenguaje escalables, alineados a métricas y objetivos de negocio. Trabajo la arquitectura conceptual del producto para reducir fricción y aumentar claridad.<br><strong>Transformo el lenguaje en una ventaja competitiva.</strong></p>
+      </div></div>
+      <div class="col-quarter"><div class="servicio-card">
+        <div class="servicio-icono">📐</div>
+        <h3 data-i18n="serv3-titulo">Evolución de equipos de <span style="font-variant:small-caps;">UX</span></h3>
+        <p data-i18n="serv3-desc">Acompaño a líderes y equipos en la maduración de su práctica de diseño y producto. Defino modelos operativos, gobernanza de contenido e integración de IA en procesos de diseño. Facilito workshops estratégicos y formación en liderazgo UX.<br><strong>Diseñar productos es clave. Diseñar equipos que puedan sostenerlos, aún más.</strong></p>
+      </div></div>
+      <div class="col-quarter"><div class="servicio-card">
+        <div class="servicio-icono">🔍</div>
+        <h3 data-i18n="serv4-titulo">Inteligencia artificial aplicada a producto</h3>
+        <p data-i18n="serv4-desc">Integro inteligencia artificial en flujos, procesos y decisiones de diseño para potenciar equipos y escalar experiencias. Trabajo desde la estrategia hasta la implementación, asegurando coherencia entre tecnología, negocio y usuario.<br><strong>La IA no como tendencia. Como ventaja estructural.</strong></p>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section class="mis-libros" id="libros">
+  <div class="container">
+    <h2 class="seccion-titulo" data-i18n="libros-titulo">Mis libros</h2>
+    <div class="row">
+      <div class="col-half"><div class="libro-card">
+        <img src="./assets/img/embedded/libro-ux-writing-espanol.jpg" alt="UX Writing en español" style="width:150px;height:auto;border-radius:8px;margin-bottom:24px;box-shadow:6px 8px 24px rgba(0,0,0,0.2);" />
+        <h3 data-i18n="libro1-titulo"><span style="font-variant:small-caps;">UX Writing</span> en español.<br>El ABC de la disciplina con Ñ.</h3>
+        <p data-i18n="libro1-desc">El primer libro escrito en español con los fundamentos de la escritura de interfaces para productos y servicios digitales.</p>
+        <p class="comprar-label" data-i18n="comprar-label">¿Dónde conseguirlo?</p>
+        <div class="btns-compra">
+          <a href="https://intuitivaux.mercadoshops.com.ar/MLA-883625883-libro-ux-writing-en-espanol-el-abc-de-la-disciplina-con-n-_JM" target="_blank" rel="noopener noreferrer" class="btn-compra btn-ar" data-i18n="btn-argentina">🇦🇷 Argentina</a>
+          <a href="https://www.amazon.com/Writing-espa%C3%B1ol-ABC-disciplina-Spanish/dp/9878704858" target="_blank" rel="noopener noreferrer" class="btn-compra btn-amazon">Amazon</a>
+          <a href="https://www.amazon.es/UX-Writing-espa%C3%B1ol-ABC-disciplina/dp/9878704858" target="_blank" rel="noopener noreferrer" class="btn-compra btn-amazon" data-i18n="btn-espana">España</a>
+          <a href="https://www.amazon.com/-/es/Marisol-Parnofiello-ebook/dp/B09YZ24172" target="_blank" rel="noopener noreferrer" class="btn-compra btn-kindle">📱 Kindle</a>
+        </div>
+      </div></div>
+      <div class="col-half"><div class="libro-card">
+        <img src="./assets/img/embedded/libro-diseno-de-contenidos.jpg" alt="Diseño de contenidos" style="width:150px;height:auto;border-radius:8px;margin-bottom:24px;box-shadow:6px 8px 24px rgba(0,0,0,0.2);" />
+        <h3 data-i18n="libro2-titulo">Diseño de contenidos.<br>Notas de oficio sobre <span style="font-variant:small-caps;">UX Content</span>, <span style="font-variant:small-caps;">UX Writing</span> y liderazgo.</h3>
+        <p data-i18n="libro2-desc">Una mirada práctica y humana sobre el diseño de contenidos digitales y el liderazgo en equipos de tecnología.</p>
+        <p class="comprar-label" data-i18n="comprar-label">¿Dónde conseguirlo?</p>
+        <div class="btns-compra">
+          <a href="https://uxwritingenespanol.empretienda.com.ar/libros/libro-diseno-de-contenidos" target="_blank" rel="noopener noreferrer" class="btn-compra btn-ar" data-i18n="btn-argentina">🇦🇷 Argentina</a>
+          <a href="https://www.amazon.com/Dise%C3%B1o-contenidos-Content-Writing-liderazgo/dp/6310065904" target="_blank" rel="noopener noreferrer" class="btn-compra btn-amazon">Amazon</a>
+        </div>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section class="seminario" id="seminario">
+  <div class="container">
+    <div class="row" style="align-items:center; gap:48px;">
+      <div class="col-half">
+        <img loading="lazy" decoding="async" src="./assets/img/foto-sol-seminario.jpg" alt="Sol Parnofiello - Seminario UX Writing" style="width:100%;border-radius:16px;box-shadow:0 12px 40px rgba(0,0,0,0.15);" />
+      </div>
+      <div class="col-half seminario-copy">
+        <p class="seminario-tag" data-i18n="seminario-tag">Seminario online</p>
+        <h2 class="seminario-titulo" data-i18n="seminario-titulo">Seminario online de <span style="font-variant:small-caps;">UX</span> y <span style="font-variant:small-caps;">UX Writing</span> en español</h2>
+        <p class="seminario-desc" data-i18n="seminario-desc">Un seminario diseñado para que puedas dar tus primeros pasos en <span style="font-variant:small-caps;">UX</span> y <span style="font-variant:small-caps;">UX Writing</span> con una mirada práctica, humana y en tu idioma. Aprenderás los fundamentos de la disciplina con ejemplos reales, herramientas concretas y mi acompañamiento.</p>
+        <ul class="seminario-items">
+          <li data-i18n="sem-item1">✅ 100% online y a tu ritmo</li>
+          <li data-i18n="sem-item2">✅ Ejemplos en español</li>
+          <li data-i18n="sem-item3">✅ Certificado de finalización</li>
+        </ul>
+        <a href="https://uxwritingenespanol.tiendup.com/curso/seminario-de-ux-writing-en-espanol-inicial-por-sol-parnofiello" target="_blank" rel="noopener noreferrer" class="btn-seminario" data-i18n="seminario-cta">Ir al seminario</a>
+      </div>
+    </div>
+    <div class="resenas-bloque">
+      <h3 data-i18n="resenas-titulo" class="resenas-titulo">Lo que dicen quienes ya lo hicieron</h3>
+      <div class="carousel-controls">
+        <button
+          type="button"
+          class="btn-carousel-toggle"
+          data-carousel-toggle
+          data-target="resenas-track"
+          data-i18n="carousel-pause"
+          aria-pressed="false">Pausar carrusel</button>
+      </div>
+      <div class="resenas-wrapper">
+        <div class="resenas-track" id="resenas-track">
+          <div class="resena-card">
+          <div class="resena-avatar">V</div>
+          <strong data-i18n="r-victoria-name">Victoria Natiello</strong>
+          <div class="estrellas">★★★★★</div>
+          <p data-i18n="r-victoria-text">"La experiencia fue sumamente enriquecedora. Sol transmite con claridad, cercanía y mucha experiencia. Recomiendo este seminario a quienes busquen iniciarse en la disciplina con una mirada sólida, accesible y sobretodo, profesional."</p>
+        </div>
+<div class="resena-card">
+          <div class="resena-avatar">G</div>
+          <strong data-i18n="r-guido-name">Guido Simonetti</strong>
+          <div class="estrellas">★★★★★</div>
+          <p data-i18n="r-guido-text">"El seminario es increíble, está muy bien estructurado y los contenidos son súper completos, claros. Con su voz transmite una calma y una armonía que se complementa perfectamente. Vale la pena completamente."</p>
+        </div>
+<div class="resena-card">
+          <div class="resena-avatar">A</div>
+          <strong data-i18n="r-agustina-name">Agustina Mancisidor</strong>
+          <div class="estrellas">★★★★★</div>
+          <p data-i18n="r-agustina-text">"¡Qué maravilla de seminario! Me encantó, tiene mucha información para arrancar en UX, super completo y divertido de seguir."</p>
+        </div>
+<div class="resena-card">
+          <div class="resena-avatar">F</div>
+          <strong data-i18n="r-florencia-name">Florencia Sosa</strong>
+          <div class="estrellas">★★★★★</div>
+          <p data-i18n="r-florencia-text">"El seminario es una gran manera de introducirse en tema, Sol logra plantar la semilla de la curiosidad en UXW, explicando con claridad y dedicación. ¡Gracias, Sol!"</p>
+        </div>
+<div class="resena-card">
+          <div class="resena-avatar">J</div>
+          <strong data-i18n="r-juan-name">Juan Bucci</strong>
+          <div class="estrellas">★★★★★</div>
+          <p data-i18n="r-juan-text">"Muy buena introducción al UX Writing para los que estamos interesados en comenzar una nueva carrera dentro de la experiencia de usuario."</p>
+        </div>
+<div class="resena-card">
+          <div class="resena-avatar">M</div>
+          <strong data-i18n="r-maria-name">María José Barreiros</strong>
+          <div class="estrellas">★★★★★</div>
+          <p data-i18n="r-maria-text">"¡Me encantó! La estética es preciosa, la información es muy útil y el formato es ideal para mantener la atención a todo momento. ¡Gracias!"</p>
+        </div>
+<div class="resena-card">
+          <div class="resena-avatar">B</div>
+          <strong data-i18n="r-berenice-name">Berenice Ibarías</strong>
+          <div class="estrellas">★★★★★</div>
+          <p data-i18n="r-berenice-text">"No imaginaba lo mucho que iba a aprender en este seminario. Agradezco mucho no sólo el conocimiento, sino la empática y amable manera de compartirlo."</p>
+        </div>
+<div class="resena-card">
+          <div class="resena-avatar">M</div>
+          <strong data-i18n="r-melina-name">Melina Sabattini</strong>
+          <div class="estrellas">★★★★★</div>
+          <p data-i18n="r-melina-text">"Gracias Sol por compartir este seminario. Lo disfruté de principio a fin. Una experiencia hermosa e inspiradora, con contenidos claros y una mirada humana que invita a diseñar textos que realmente acompañen."</p>
+        </div>
+<div class="resena-card">
+          <div class="resena-avatar">D</div>
+          <strong data-i18n="r-dino-name">Dino Cortez</strong>
+          <div class="estrellas">★★★★★</div>
+          <p data-i18n="r-dino-text">"Maravilloso seminario. Sol tiene esa manera de guiar el contenido tan fluida y humana que invita a embullarnos en el contenido y repensar la escritura desde el lugar de la conexión con el otro."</p>
+        </div>
+          <div class="resena-card">
+          <div class="resena-avatar">V</div>
+          <strong data-i18n="r-victoria-name">Victoria Natiello</strong>
+          <div class="estrellas">★★★★★</div>
+          <p data-i18n="r-victoria-text">"La experiencia fue sumamente enriquecedora. Sol transmite con claridad, cercanía y mucha experiencia. Recomiendo este seminario a quienes busquen iniciarse en la disciplina con una mirada sólida, accesible y sobretodo, profesional."</p>
+        </div>
+<div class="resena-card">
+          <div class="resena-avatar">G</div>
+          <strong data-i18n="r-guido-name">Guido Simonetti</strong>
+          <div class="estrellas">★★★★★</div>
+          <p data-i18n="r-guido-text">"El seminario es increíble, está muy bien estructurado y los contenidos son súper completos, claros. Con su voz transmite una calma y una armonía que se complementa perfectamente. Vale la pena completamente."</p>
+        </div>
+<div class="resena-card">
+          <div class="resena-avatar">A</div>
+          <strong data-i18n="r-agustina-name">Agustina Mancisidor</strong>
+          <div class="estrellas">★★★★★</div>
+          <p data-i18n="r-agustina-text">"¡Qué maravilla de seminario! Me encantó, tiene mucha información para arrancar en UX, super completo y divertido de seguir."</p>
+        </div>
+<div class="resena-card">
+          <div class="resena-avatar">F</div>
+          <strong data-i18n="r-florencia-name">Florencia Sosa</strong>
+          <div class="estrellas">★★★★★</div>
+          <p data-i18n="r-florencia-text">"El seminario es una gran manera de introducirse en tema, Sol logra plantar la semilla de la curiosidad en UXW, explicando con claridad y dedicación. ¡Gracias, Sol!"</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="clientes">
+  <div class="container">
+    <h2 class="seccion-titulo" data-i18n="clientes-titulo">Ya confiaron</h2>
+    <div class="carousel-controls">
+      <button
+        type="button"
+        class="btn-carousel-toggle"
+        data-carousel-toggle
+        data-target="logos-track"
+        data-i18n="carousel-pause"
+        aria-pressed="false">Pausar carrusel</button>
+    </div>
+  </div>
+  <div class="carrusel-wrapper">
+    <div class="carrusel-track" id="logos-track">
+      <div class="logo-item"><img src="./assets/img/embedded/logo-la-segunda-seguros.jpg" alt="La Segunda Seguros" /></div>
+<div class="logo-item"><img src="./assets/img/embedded/logo-etermax.png" alt="Etermax" /></div>
+<div class="logo-item"><img src="./assets/img/embedded/logo-pfizer.png" alt="Pfizer" /></div>
+<div class="logo-item"><img src="./assets/img/embedded/logo-banco-galicia.png" alt="Banco Galicia" /></div>
+<div class="logo-item"><img src="./assets/img/embedded/logo-flux-it.png" alt="Flux IT" /></div>
+<div class="logo-item"><img src="./assets/img/embedded/logo-banco-hipotecario.png" alt="Banco Hipotecario" /></div>
+      <div class="logo-item"><img src="./assets/img/embedded/logo-la-segunda-seguros.jpg" alt="La Segunda Seguros" /></div>
+<div class="logo-item"><img src="./assets/img/embedded/logo-etermax.png" alt="Etermax" /></div>
+<div class="logo-item"><img src="./assets/img/embedded/logo-pfizer.png" alt="Pfizer" /></div>
+<div class="logo-item"><img src="./assets/img/embedded/logo-banco-galicia.png" alt="Banco Galicia" /></div>
+<div class="logo-item"><img src="./assets/img/embedded/logo-flux-it.png" alt="Flux IT" /></div>
+<div class="logo-item"><img src="./assets/img/embedded/logo-banco-hipotecario.png" alt="Banco Hipotecario" /></div>
+    </div>
+  </div>
+</section>
+
+<section class="contacto" id="escribime">
+  <div class="container">
+    <div class="contacto-card">
+      <h2 data-i18n="contacto-titulo">¿Puedo ayudarte?</h2>
+      <p data-i18n="contacto-desc">Conversemos y diseñamos juntos.</p>
+      <a href="mailto:sol@intuitivaux.com" class="btn-mail" data-i18n="contacto-cta">✉️ sol@intuitivaux.com</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-half">
+        <div class="footer-logo">
+          <img src="./assets/img/intuitivaux.png" alt="intuitiva ux" class="footer-logo-image" />
+        </div>
+        <p data-i18n="footer-desc">Consultoría en UX y comunicación.</p>
+        <p data-i18n="footer-ciudad">Buenos Aires, Argentina</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/solparnofiello/" target="_blank" rel="noopener noreferrer" data-i18n="footer-li">LinkedIn</a>
+          <a href="https://www.instagram.com/uxwritinges/" target="_blank" rel="noopener noreferrer" data-i18n="footer-ig">Instagram</a>
+        </div>
+      </div>
+      <div class="col-half footer-contact">
+        <p data-i18n="footer-email" class="footer-email">sol@intuitivaux.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer-copy">© Copyright 2026 Intuitiva UX</p>
+      <p data-i18n="footer-amor">Hecho con amor desde Buenos Aires al mundo.</p>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript">
+var currentLang = "es";
+var heroTypingTimer = null;
+var htmlKeys = new Set([
+  "sol-bio-1", "sol-bio-2", "serv1-desc", "serv2-desc", "serv3-titulo", "serv3-desc",
+  "serv4-desc", "pionera-titulo", "pionera-p1", "libro1-titulo", "libro2-titulo",
+  "seminario-titulo", "seminario-desc"
+]);
+var t = {
+  "nav-consultoria":  {es:"Consultoría", en:"Consulting"},
+  "nav-libros":       {es:"Mis libros", en:"My books"},
+  "nav-seminario":    {es:"Seminario", en:"Workshop"},
+  "nav-escribime":    {es:"Conversemos", en:"Contact me"},
+  "hero-kicker":      {es:"Estrategia de producto en la era de la IA", en:"Product strategy in the AI era"},
+  "hero-h1":          {es:"Estrategia de producto y UX para organizaciones que escalan", en:"Product Strategy for Scaling Organizations"},
+  "hero-h2":          {es:"Acompaño a líderes y equipos a diseñar productos, sistemas de contenido e integración de inteligencia artificial con impacto estratégico y cultural.", en:"I support leaders and teams in designing products, content systems, and AI integration with strategic and cultural impact."},
+  "hero-cta":         {es:"Conversemos", en:"Let's talk"},
+  "hero-cta-secondary": {es:"Ver seminario", en:"View workshop"},
+  "hero-cta-tertiary": {es:"Advisory", en:"Advisory"},
+  "sol-nombre":       {es:"Sol Parnofiello", en:"Sol Parnofiello"},
+  "sol-bio-1":        {es:"Senior Product Design Manager con más de 20 años liderando iniciativas en tecnología, fintech y e-commerce en América Latina. Licenciada en ciencias de la comunicación por la Universidad de Buenos Aires.", en:"Senior Product Design Manager with more than 20 years leading initiatives in technology, fintech, and e-commerce across Latin America. Communication Sciences graduate from the University of Buenos Aires."},
+  "sol-bio-2":        {es:"Pionera en UX Writing en español y autora de dos libros sobre experiencia y liderazgo en producto.", en:"A pioneer of UX Writing in Spanish and author of two books on experience and product leadership."},
+  "sol-bio-3":        {es:"Trabajo junto a equipos de liderazgo para alinear visión, lenguaje, tecnología y cultura organizacional en contextos de alta complejidad.", en:"I work with leadership teams to align vision, language, technology, and organizational culture in highly complex contexts."},
+  "sol-bio-4":        {es:"Mi enfoque conecta estrategia con ejecución sostenible.", en:"My approach connects strategy with sustainable execution."},
+  "sol-linkedin":     {es:"Mi LinkedIn", en:"LinkedIn"},
+  "servicios-titulo": {es:"Advisory estratégico", en:"Strategic Advisory"},
+  "serv1-titulo":     {es:"Diseño de producto estratégico", en:"Strategic Product Design"},
+  "serv1-desc":       {es:'Diseño y evolución de productos digitales donde negocio, experiencia y tecnología funcionan como sistema. Defino visión, narrativa y decisiones de producto con foco en impacto real. Integro contenido, <span style="font-variant:small-caps;">research</span> e inteligencia artificial desde la estrategia, no como etapas aisladas.', en:"I design and evolve digital products where business, experience, and technology operate as one system. I define product vision, narrative, and decisions focused on real impact. I integrate content, research, and AI from strategy, not as isolated stages."},
+  "serv2-titulo":     {es:"Estrategia de contenido", en:"Content Strategy"},
+  "serv2-desc":       {es:'El contenido no es <span style="font-variant:small-caps;">microcopy</span>. Es infraestructura. Desarrollo sistemas de lenguaje escalables, alineados a métricas y objetivos de negocio. Trabajo la arquitectura conceptual del producto para reducir fricción y aumentar claridad.<br><strong>Transformo el lenguaje en una ventaja competitiva.</strong>', en:"Content is not microcopy. It is infrastructure. I develop scalable language systems aligned with business goals and metrics. I shape product conceptual architecture to reduce friction and increase clarity.<br><strong>I turn language into a competitive advantage.</strong>"},
+  "serv3-titulo":     {es:'Evolución de equipos de <span style="font-variant:small-caps;">ux</span>', en:'<span style="font-variant:small-caps;">UX</span> Team Evolution'},
+  "serv3-desc":       {es:'Acompaño a líderes y equipos en la maduración de su práctica de diseño y producto. Defino modelos operativos, gobernanza de contenido e integración de ia en procesos de diseño. Facilito <span style="font-variant:small-caps;">workshops</span> estratégicos y formación en liderazgo <span style="font-variant:small-caps;">ux</span>.<br><strong>Diseñar productos es clave. Diseñar equipos que puedan sostenerlos, aún más.</strong>', en:"I support leaders and teams in maturing their design and product practice. I define operating models, content governance, and AI integration in design workflows. I facilitate strategic workshops and UX leadership training.<br><strong>Designing products matters. Designing teams that can sustain them matters even more.</strong>"},
+  "serv4-titulo":     {es:"Inteligencia artificial aplicada a producto", en:"AI Applied to Product"},
+  "serv4-desc":       {es:"Integro inteligencia artificial en flujos, procesos y decisiones de diseño para potenciar equipos y escalar experiencias. Trabajo desde la estrategia hasta la implementación, asegurando coherencia entre tecnología, negocio y usuario.<br><strong>La IA no como tendencia. Como ventaja estructural.</strong>", en:"I integrate artificial intelligence into design flows, processes, and decisions to empower teams and scale experiences. I work from strategy to implementation, ensuring coherence between technology, business, and user needs.<br><strong>AI not as a trend. As structural advantage.</strong>"},
+  "pionera-titulo":   {es:'Pionera en <span style="font-variant:small-caps;">ux writing</span> en español', en:"Pioneer in UX Writing in Spanish"},
+  "pionera-p1":       {es:"Primera autora en publicar un libro sobre ux writing en español.", en:"First author to publish a book on UX Writing in Spanish. Author of a book on UX and product leadership."},
+  "pionera-p2":       {es:"Contribuí a consolidar la disciplina en la región y a elevar su rol estratégico dentro de las organizaciones.", en:"I have contributed to consolidating the discipline in the region and elevating its strategic role within organizations."},
+  "libros-titulo":    {es:"Mis libros", en:"My books"},
+  "libro1-titulo":    {es:'<span style="font-variant:small-caps;">UX Writing</span> en español.<br>El ABC de la disciplina con Ñ.', en:'<span style="font-variant:small-caps;">UX Writing</span> in Spanish.<br>The ABCs of the discipline.'},
+  "libro1-desc":      {es:"El primer libro escrito en español con los fundamentos de la escritura de interfaces para productos y servicios digitales.", en:"The first book written in Spanish covering the fundamentals of interface writing for digital products and services."},
+  "comprar-label":    {es:"¿Dónde conseguirlo?", en:"Where to get it?"},
+  "btn-argentina":    {es:"🇦🇷 Argentina", en:"🇦🇷 Argentina"},
+  "btn-espana":       {es:"España", en:"Spain"},
+  "libro2-titulo":    {es:'Diseño de contenidos.<br>Notas de oficio sobre <span style="font-variant:small-caps;">UX Content</span>, <span style="font-variant:small-caps;">UX Writing</span> y liderazgo.', en:'Content Design.<br>Professional notes on <span style="font-variant:small-caps;">UX Content</span>, <span style="font-variant:small-caps;">UX Writing</span> and leadership.'},
+  "libro2-desc":      {es:"Una mirada práctica y humana sobre el diseño de contenidos digitales y el liderazgo en equipos de tecnología.", en:"A practical and human perspective on digital content design and leadership in tech teams."},
+  "seminario-tag":    {es:"Seminario online", en:"Online Workshop"},
+  "seminario-titulo": {es:'Seminario online de <span style="font-variant:small-caps;">UX</span> y <span style="font-variant:small-caps;">UX Writing</span> en español', en:'Online <span style="font-variant:small-caps;">UX</span> and <span style="font-variant:small-caps;">UX Writing</span> Workshop'},
+  "seminario-desc":   {es:'Un seminario diseñado para que puedas dar tus primeros pasos en <span style="font-variant:small-caps;">UX</span> y <span style="font-variant:small-caps;">UX Writing</span> con una mirada práctica, humana y en tu idioma. Aprenderás los fundamentos de la disciplina con ejemplos reales, herramientas concretas y mi acompañamiento.', en:"A workshop designed to help you take your first steps in UX and UX Writing with a practical, human approach. You'll learn the fundamentals with real examples, concrete tools and my personal guidance."},
+  "sem-item1":        {es:"✅ 100% online y a tu ritmo", en:"✅ 100% online, at your own pace"},
+  "sem-item2":        {es:"✅ Ejemplos en español", en:"✅ Examples in Spanish"},
+  "sem-item3":        {es:"✅ Certificado de finalización", en:"✅ Certificate of completion"},
+  "seminario-cta":    {es:"Ir al seminario", en:"Go to workshop"},
+  "resenas-titulo":   {es:"Lo que dicen quienes ya lo hicieron", en:"What past students say"},
+  "carousel-pause":   {es:"Pausar carrusel", en:"Pause carousel"},
+  "carousel-resume":  {es:"Reanudar carrusel", en:"Resume carousel"},
+  "r-victoria-name":  {es:"Victoria Natiello", en:"Victoria Natiello"},
+  "r-victoria-text":  {es:'"La experiencia fue sumamente enriquecedora. Sol transmite con claridad, cercanía y mucha experiencia. Recomiendo este seminario a quienes busquen iniciarse en la disciplina con una mirada sólida, accesible y sobretodo, profesional."', en:'"The experience was extremely enriching. Sol conveys clarity, warmth and deep expertise. I recommend this workshop to anyone looking to enter the field with a solid, accessible and professional foundation."'},
+  "r-guido-name":     {es:"Guido Simonetti", en:"Guido Simonetti"},
+  "r-guido-text":     {es:'"El seminario es increíble, está muy bien estructurado y los contenidos son súper completos, claros. Con su voz transmite una calma y una armonía que se complementa perfectamente. Vale la pena completamente."', en:'"The workshop is incredible, very well structured and the content is super complete and clear. Her voice conveys a calm and harmony that complements perfectly. Totally worth it."'},
+  "r-agustina-name":  {es:"Agustina Mancisidor", en:"Agustina Mancisidor"},
+  "r-agustina-text":  {es:'"¡Qué maravilla de seminario! Me encantó, tiene mucha información para arrancar en UX, super completo y divertido de seguir."', en:'"What a wonderful workshop! I loved it — packed with information to get started in UX, super complete and fun to follow."'},
+  "r-florencia-name": {es:"Florencia Sosa", en:"Florencia Sosa"},
+  "r-florencia-text": {es:'"El seminario es una gran manera de introducirse en tema, Sol logra plantar la semilla de la curiosidad en UXW, explicando con claridad y dedicación. ¡Gracias, Sol!"', en:'"The workshop is a great way to get introduced to the topic. Sol plants the seed of curiosity in UX Writing, explaining with clarity and dedication. Thank you, Sol!"'},
+  "r-juan-name":      {es:"Juan Bucci", en:"Juan Bucci"},
+  "r-juan-text":      {es:'"Muy buena introducción al UX Writing para los que estamos interesados en comenzar una nueva carrera dentro de la experiencia de usuario."', en:'"A very good introduction to UX Writing for those interested in starting a new career in user experience."'},
+  "r-maria-name":     {es:"María José Barreiros", en:"María José Barreiros"},
+  "r-maria-text":     {es:'"¡Me encantó! La estética es preciosa, la información es muy útil y el formato es ideal para mantener la atención a todo momento. ¡Gracias!"', en:'"I loved it! The aesthetic is beautiful, the information is very useful and the format is ideal for keeping attention at all times. Thank you!"'},
+  "r-berenice-name":  {es:"Berenice Ibarías", en:"Berenice Ibarías"},
+  "r-berenice-text":  {es:'"No imaginaba lo mucho que iba a aprender en este seminario. Agradezco mucho no sólo el conocimiento, sino la empática y amable manera de compartirlo."', en:'"I had no idea how much I was going to learn in this workshop. I am grateful not only for the knowledge, but for the empathetic and kind way it was shared."'},
+  "r-melina-name":    {es:"Melina Sabattini", en:"Melina Sabattini"},
+  "r-melina-text":    {es:'"Gracias Sol por compartir este seminario. Lo disfruté de principio a fin. Una experiencia hermosa e inspiradora, con contenidos claros y una mirada humana que invita a diseñar textos que realmente acompañen."', en:'"Thank you Sol for sharing this workshop. I enjoyed it from start to finish. A beautiful and inspiring experience, with clear content and a human perspective that invites you to design texts that truly accompany users."'},
+  "r-dino-name":      {es:"Dino Cortez", en:"Dino Cortez"},
+  "r-dino-text":      {es:'"Maravilloso seminario. Sol tiene esa manera de guiar el contenido tan fluida y humana que invita a embullarnos en el contenido y repensar la escritura desde el lugar de la conexión con el otro."', en:'"Wonderful workshop. Sol has that fluid and human way of guiding content that invites us to dive in and rethink writing from the place of connection with others."'},
+  "clientes-titulo":  {es:"Ya confiaron", en:"They already trusted me"},
+  "contacto-titulo":  {es:"¿Puedo ayudarte?", en:"Can I help you?"},
+  "contacto-desc":    {es:"Conversemos y diseñamos juntos.", en:"Write to me and let's design together."},
+  "contacto-cta":     {es:"✉️ sol@intuitivaux.com", en:"✉️ sol@intuitivaux.com"},
+  "footer-desc":      {es:"Consultoría en UX y comunicación.", en:"UX & Communication Consulting."},
+  "footer-ciudad":    {es:"Buenos Aires, Argentina", en:"Buenos Aires, Argentina"},
+  "footer-li":        {es:"LinkedIn", en:"LinkedIn"},
+  "footer-ig":        {es:"Instagram", en:"Instagram"},
+  "footer-email":     {es:"sol@intuitivaux.com", en:"sol@intuitivaux.com"},
+  "footer-copy":      {es:"© Copyright 2026 Intuitiva UX", en:"© Copyright 2026 Intuitiva UX"},
+  "footer-amor":      {es:"Hecho con amor desde Buenos Aires al mundo.", en:"Made with love from Buenos Aires to the world."}
+};
+
+function applyTranslations() {
+  var langBtn = document.getElementById("lang-btn");
+  document.documentElement.lang = currentLang;
+  langBtn.textContent = currentLang === "es" ? "EN" : "ES";
+  langBtn.setAttribute("aria-label", currentLang === "es" ? "Cambiar idioma a inglés" : "Switch language to Spanish");
+  document.querySelectorAll("[data-i18n]").forEach(function(el) {
+    var key = el.getAttribute("data-i18n");
+    if (t[key] && t[key][currentLang] !== undefined) {
+      if (htmlKeys.has(key)) {
+        el.innerHTML = t[key][currentLang];
+      } else {
+        el.textContent = t[key][currentLang];
+      }
+    }
+  });
+  runHeroTypewriter();
+  updateCarouselToggleLabels();
+}
+
+function runHeroTypewriter() {
+  var el = document.getElementById("hero-typing");
+  if (!el) return;
+  var targetText = (t["hero-h1"] && t["hero-h1"][currentLang]) ? t["hero-h1"][currentLang] : el.textContent;
+  if (heroTypingTimer) {
+    clearTimeout(heroTypingTimer);
+    heroTypingTimer = null;
+  }
+  el.classList.remove("is-typing");
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    el.textContent = targetText;
+    return;
+  }
+  var i = 0;
+  el.textContent = "";
+  el.classList.add("is-typing");
+  var typeStep = function() {
+    if (i < targetText.length) {
+      el.textContent += targetText.charAt(i);
+      i += 1;
+      heroTypingTimer = setTimeout(typeStep, 42);
+    } else {
+      el.classList.remove("is-typing");
+      heroTypingTimer = null;
+    }
+  };
+  heroTypingTimer = setTimeout(typeStep, 260);
+}
+
+function getCarouselLabel(paused) {
+  var key = paused ? "carousel-resume" : "carousel-pause";
+  if (t[key] && t[key][currentLang]) {
+    return t[key][currentLang];
+  }
+  return paused ? "Resume carousel" : "Pause carousel";
+}
+
+function updateCarouselToggleLabels() {
+  document.querySelectorAll("[data-carousel-toggle]").forEach(function(button) {
+    var targetId = button.getAttribute("data-target");
+    var track = document.getElementById(targetId);
+    var paused = track ? track.style.animationPlayState === "paused" : false;
+    button.textContent = getCarouselLabel(paused);
+    button.setAttribute("aria-pressed", paused ? "true" : "false");
+  });
+}
+
+function toggleLang() {
+  currentLang = currentLang === "es" ? "en" : "es";
+  applyTranslations();
+}
+
+applyTranslations();
+
+document.querySelectorAll("[data-carousel-toggle]").forEach(function(button) {
+  button.addEventListener("click", function() {
+    var targetId = button.getAttribute("data-target");
+    var track = document.getElementById(targetId);
+    if (!track) return;
+    var shouldPause = track.style.animationPlayState !== "paused";
+    track.style.animationPlayState = shouldPause ? "paused" : "running";
+    updateCarouselToggleLabels();
+  });
+});
+
+["resenas-track", "logos-track"].forEach(function(trackId) {
+  var track = document.getElementById(trackId);
+  if (!track) return;
+  var items = track.children;
+  var start = Math.floor(items.length / 2);
+  for (var i = start; i < items.length; i += 1) {
+    items[i].setAttribute("aria-hidden", "true");
+  }
+});
+
+updateCarouselToggleLabels();
+
+document.querySelectorAll("img").forEach(function(img) {
+  if (!img.closest(".hero")) {
+    img.loading = "lazy";
+  }
+  img.decoding = "async";
+});
+</script>
+
+</body>
+</html>
